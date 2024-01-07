@@ -5,7 +5,7 @@
 
 
 ## Overview
-This is a weather web application developed by Neel. It provides real-time weather updates for any location.
+This is a weather web application. It provides real-time weather updates for any location.
 
 ## Live Demo
 The live demo of the project can be accessed here.
