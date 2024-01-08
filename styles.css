@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
     text-align: center;
     background: linear-gradient(to right, #83a4d4, #b6fbff);
 }
@@ -15,6 +17,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: fadeIn 1s; /* Added fade-in animation */
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 h1 {
